@@ -1,0 +1,10 @@
+{
+  "benchmark": "FAASI-CORE",
+  "agent": "demo-agent-v0",
+  "scores": {
+    "task_success": 0.82,
+    "tool_reliability": 0.76,
+    "recovery_intelligence": 0.71,
+    "aggregate": 0.78
+  }
+}
