@@ -14,32 +14,31 @@
 \maketitle
 
 \begin{abstract}
-Autonomous AI agents increasingly operate across multi-step environments requiring tool use, recovery from failure, memory continuity, ambiguity resolution, and safety-aware execution. Existing benchmarks partially evaluate model capability but insufficiently isolate operational reliability under long-horizon autonomous execution. FAASI-CORE introduces a benchmark framework for autonomous reliability science.
+FAASI-CORE introduces a benchmark framework for evaluating autonomous agent reliability under long-horizon operational execution.
 \end{abstract}
 
 \section{Introduction}
-As autonomous AI systems evolve from conversational interfaces into persistent operational agents, benchmark methodology must evolve accordingly.
-
-\section{Problem Statement}
-Current evaluation ecosystems insufficiently measure recovery resilience, ambiguity governance, memory integrity, execution stability, and long-horizon autonomous reliability.
+Autonomous agents require benchmark methodologies beyond narrow completion metrics.
 
 \section{Related Work}
-HELM, SWE-bench, GAIA, and AgentBench provide important prior foundations.
+Prior benchmark ecosystems include HELM, SWE-bench, AgentBench, and GAIA.
+
+\section{Benchmark Taxonomy}
+Task families include tool use, filesystem operations, recovery tasks, ambiguity resolution, and long-horizon workflows.
 
 \section{Methodology}
-FAASI benchmark dimensions include task success, tool reliability, recovery intelligence, memory integrity, safety compliance, ambiguity governance, stability, and efficiency.
+FAASI evaluates task success, tool reliability, recovery intelligence, memory integrity, safety compliance, ambiguity governance, stability, and efficiency.
 
 \section{Scoring Formalism}
 \[
 FAASI = \sum_{i=1}^{n} w_i m_i
 \]
-where $m_i$ represents benchmark metrics and $w_i$ dimension weights.
 
 \section{Threats to Validity}
-Prototype maturity and benchmark scope limitations remain.
+Prototype maturity, evaluation bias, and benchmark scope limitations remain active concerns.
 
 \section{Ethics}
-Benchmark design should encourage safety-conscious autonomous system evaluation.
+Safety-conscious benchmark design is required for autonomous system evaluation.
 
 \bibliographystyle{plain}
 \bibliography{references}
