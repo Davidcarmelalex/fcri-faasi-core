@@ -1,0 +1,1 @@
+FAASI whitepaper release artifacts placeholder. PDF release to be attached in release workflow.
