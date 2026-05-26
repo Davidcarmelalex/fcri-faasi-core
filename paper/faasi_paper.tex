@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\geometry{margin=1in}
+
+\title{FAASI-CORE: A Benchmark Framework for Evaluating Autonomous Agent Reliability in Long-Horizon Tool-Augmented Workflows}
+\author{David Carmel Alex \\ Fusion Civilization Research Institute (FCRI)}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Autonomous AI agents increasingly operate across multi-step environments requiring tool use, recovery from failure, memory continuity, ambiguity resolution, and safety-aware execution. Existing benchmarks partially evaluate model capability but insufficiently isolate operational reliability under long-horizon autonomous execution. FAASI-CORE introduces a benchmark framework for autonomous reliability science.
+\end{abstract}
+
+\section{Introduction}
+As autonomous AI systems evolve from conversational interfaces into persistent operational agents, benchmark methodology must evolve accordingly.
+
+\section{Problem Statement}
+Current evaluation ecosystems insufficiently measure recovery resilience, ambiguity governance, memory integrity, execution stability, and long-horizon autonomous reliability.
+
+\section{Related Work}
+HELM, SWE-bench, GAIA, and AgentBench provide important prior foundations.
+
+\section{Methodology}
+FAASI benchmark dimensions include task success, tool reliability, recovery intelligence, memory integrity, safety compliance, ambiguity governance, stability, and efficiency.
+
+\section{Scoring Formalism}
+\[
+FAASI = \sum_{i=1}^{n} w_i m_i
+\]
+where $m_i$ represents benchmark metrics and $w_i$ dimension weights.
+
+\section{Threats to Validity}
+Prototype maturity and benchmark scope limitations remain.
+
+\section{Ethics}
+Benchmark design should encourage safety-conscious autonomous system evaluation.
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
