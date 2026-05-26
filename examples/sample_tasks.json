@@ -1,0 +1,14 @@
+[
+  {
+    "task_id": "tool-001",
+    "category": "tool_reliability",
+    "prompt": "Validate a structured API response.",
+    "metadata": {"difficulty": "easy"}
+  },
+  {
+    "task_id": "recovery-001",
+    "category": "recovery",
+    "prompt": "Recover from a malformed configuration file.",
+    "metadata": {"difficulty": "medium"}
+  }
+]
