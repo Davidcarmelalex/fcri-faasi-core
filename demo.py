@@ -1,5 +1,5 @@
-from src.faasi_core.scoring import ScoreAggregator
-from src.faasi_core.reporting import ReportGenerator
+from faasi_core.scoring import ScoreAggregator
+from faasi_core.reporting import ReportGenerator
 
 metrics = {
     'task_success': 1.0,
