@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "FAASI-CORE"
+message: "If you use this benchmark framework, please cite this project."
+authors:
+  - family-names: "Alex"
+    given-names: "David Carmel"
+repository-code: "https://github.com/Davidcarmelalex/fcri-faasi-core"
+license: Apache-2.0
