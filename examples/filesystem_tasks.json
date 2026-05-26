@@ -1,0 +1,14 @@
+[
+  {
+    "task_id": "fs-001",
+    "category": "filesystem",
+    "prompt": "Locate a configuration file and validate its structure.",
+    "metadata": {"difficulty": "medium"}
+  },
+  {
+    "task_id": "tool-002",
+    "category": "tool_use",
+    "prompt": "Invoke a simulated external tool and parse the result.",
+    "metadata": {"difficulty": "medium"}
+  }
+]
