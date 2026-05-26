@@ -1,123 +1,144 @@
 # FAASI-CORE
+## Fusion Autonomous Agent Standards Initiative — Core Benchmark
 
-**Fusion Autonomous Agent Standards Initiative — Core Benchmark**
+[![Research Initiative](https://img.shields.io/badge/FCRI-Research%20Initiative-black)]()
+[![Benchmark](https://img.shields.io/badge/Benchmark-Autonomous%20AI-blue)]()
+[![Status](https://img.shields.io/badge/Status-Design%20Phase-orange)]()
+[![License](https://img.shields.io/badge/License-Apache%202.0-green)]()
 
-A reproducible benchmark initiative for evaluating the reliability of autonomous AI agents in long-horizon, tool-augmented workflows.
-
-## Overview
-
-FAASI-CORE is an open benchmark research initiative by the **Fusion Civilization Research Institute (FCRI)** focused on evaluating real-world autonomous AI agent reliability.
-
-Current AI benchmarks primarily evaluate isolated reasoning or narrow task performance. However, production autonomous agents must reliably operate across complex multi-step workflows involving tools, APIs, filesystems, planning, recovery, and safety constraints.
-
-FAASI-CORE aims to provide a standardized public benchmark for measuring these capabilities.
+**FAASI-CORE** is an open benchmark research initiative by the **Fusion Civilization Research Institute (FCRI)** focused on standardized evaluation of autonomous AI agent reliability in long-horizon, tool-augmented operational workflows.
 
 ---
 
-## Intelligence Dimensions Measured
+## Research Thesis
 
-The benchmark evaluates:
+Modern AI benchmarks primarily evaluate isolated reasoning or narrow task performance.
 
-- Long-horizon task completion reliability
-- Tool/API invocation correctness
-- Failure diagnosis and recovery capability
-- Memory consistency across workflow execution
-- Ambiguity handling and clarification behavior
-- Safety and operational constraint adherence
-- Stability across repeated benchmark runs
-- Execution efficiency
+Real-world autonomous agents must reliably:
+
+- execute multi-step workflows
+- invoke tools and APIs correctly
+- recover from operational failures
+- maintain memory consistency
+- handle ambiguity responsibly
+- adhere to safety constraints
+- remain stable under repeated execution
+- optimize efficiency and action economy
+
+FAASI-CORE exists to measure these capabilities reproducibly.
 
 ---
 
-## Benchmark Categories
+## Core Benchmark Dimensions
 
-### Tool Reliability
-Measures:
-- API correctness
+### 1. Tool Reliability
+Evaluation of:
+- API invocation correctness
 - shell execution quality
-- filesystem interaction correctness
+- filesystem interaction safety
 - structured output validity
 
-### Long-Horizon Completion
-Measures:
-- multi-step task persistence
-- workflow drift
+---
+
+### 2. Long-Horizon Completion
+Evaluation of:
+- multi-step persistence
+- workflow drift resistance
 - completion fidelity
 - abandonment behavior
 
-### Recovery Intelligence
-Injected scenarios:
-- broken APIs
-- malformed outputs
-- missing files
-- dependency failures
-- configuration errors
+---
 
-Measures:
+### 3. Recovery Intelligence
+Failure injection scenarios:
+- broken APIs
+- malformed JSON
+- dependency failures
+- missing files
+- configuration corruption
+
+Measured:
 - diagnosis quality
-- corrective behavior
+- corrective reasoning
 - recovery success
 
-### Memory Integrity
-Measures:
-- constraint retention
-- context consistency
-- dependency recall
+---
 
-### Ambiguity Governance
-Measures:
+### 4. Memory Integrity
+Evaluation of:
+- contextual retention
+- constraint persistence
+- dependency recall
+- state consistency
+
+---
+
+### 5. Ambiguity Governance
+Evaluation of:
 - clarification behavior
-- assumption quality
+- assumption discipline
 - hallucination resistance
 
-### Safety Compliance
-Measures:
+---
+
+### 6. Safety Compliance
+Evaluation of:
 - unsafe action prevention
-- destructive command restraint
-- operational boundary adherence
+- destructive restraint
+- boundary adherence
 
-### Stability & Efficiency
-Measures:
+---
+
+### 7. Stability & Efficiency
+Evaluation of:
 - repeatability
-- score variance
+- variance
 - latency
-- action efficiency
+- action economy
+- resource efficiency
 
 ---
 
-## Planned Dataset Design
+## Composite Scoring
 
-Initial benchmark assets:
-
-- JSON/YAML task definitions
-- structured evaluation tasks
-- simulated tool/API schemas
-- benchmark traces
-- scoring references
-- failure injection scenarios
-
-Planned v0.1 scale:
-
-- 500–2,000 benchmark tasks
-- text + structured benchmark data
-- Kaggle Benchmarks SDK compatible implementation
-
----
-
-## Scoring Framework
-
-Composite benchmark score:
-
-FAASI_SCORE =
+FAASI_SCORE:
 
 - 20% Task Success
 - 15% Tool Accuracy
-- 15% Recovery Success
-- 10% Memory Consistency
+- 15% Recovery Quality
+- 10% Memory Integrity
 - 10% Safety Compliance
 - 10% Ambiguity Handling
 - 10% Stability
 - 10% Efficiency
+
+---
+
+## Repository Structure
+
+```text
+paper/
+benchmark_spec/
+datasets/
+evaluators/
+docs/
+examples/
+governance/
+leaderboard/
+task_generators/
+baselines/
+```
+
+---
+
+## Initial Benchmark Scope
+
+Version 0.1 target:
+
+- 500–2,000 benchmark tasks
+- text + structured benchmark environments
+- Kaggle Benchmarks SDK compatible implementation
+- public reproducible evaluation workflows
 
 ---
 
@@ -129,14 +150,15 @@ Independent research initiative focused on:
 
 - autonomous AI systems
 - benchmark science
-- reproducible AI evaluation
+- reproducible evaluation
+- AI safety measurement
 - open standards development
 
 ---
 
 ## Project Status
 
-Early benchmark architecture and benchmark specification development.
+Early benchmark architecture and specification development.
 
 ---
 
